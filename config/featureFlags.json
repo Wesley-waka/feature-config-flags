@@ -1,0 +1,16 @@
+{
+  "newDashboard": {
+    "enabled": true,
+    "environments": ["development","production", "staging"],
+    "rolloutPercentage": 50
+  },
+  "betaFeatures": {
+    "enabled": true,
+    "environments": ["development", "staging"]
+  },
+  "experimentalMode": false,
+  "analyticsTracking": {
+    "enabled": true,
+    "environments": ["production"]
+  }
+}
